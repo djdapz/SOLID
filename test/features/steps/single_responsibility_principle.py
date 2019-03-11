@@ -2,13 +2,18 @@ import os
 from behave import given, step, when, then
 from hamcrest import assert_that, is_
 
+from src.single_responsibility_principle.FileReader import FileReader
 from src.single_responsibility_principle.main import FileReporter
+
+
+@step("a reader for {input_file}")
+def step_impl(context, input_file):
+    context.reader = FileReader("resources/" + input_file)
 
 
 @step('a reporter that writes {input_file} to {output_file}')
 def step_impl(context, input_file, output_file):
-    with open("resources/" + input_file) as input_file_contents:
-        context.subject = FileReporter("resources/" + output_file, input_file_contents.read())
+    context.subject = FileReporter("resources/" + output_file, context.reader.read())
 
 
 @when("we generate a report")
@@ -38,3 +43,13 @@ def step_impl(context, file, content):
     resources_file = "resources/" + file
     assert_that(os.path.isfile(resources_file), is_(True))
     assert_that(open(resources_file, "+r").read(), is_(content))
+
+
+@when("we want to read the contents of {file_name}")
+def step_impl(context, file_name):
+    context.subject = FileReader("resources/" + file_name)
+
+
+@then("we find the the contents is {content}")
+def step_impl(context, content):
+    assert_that(context.subject.read(), is_(content))

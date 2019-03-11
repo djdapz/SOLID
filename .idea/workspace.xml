@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5127226-f6d7-4df7-9e96-6171eee213ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SOLID.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/single_responsibility_principle/FileReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,47 +15,43 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature__1_.coverage" NAME="single_responsibility_principle.feature (1) Coverage Results" MODIFIED="1552335317284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature_Generating_output.coverage" NAME="single_responsibility_principle.feature:Generating output Coverage Results" MODIFIED="1552336159574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature_Generating_output.coverage" NAME="single_responsibility_principle.feature:Generating output Coverage Results" MODIFIED="1552337826394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature_Generating_a_report__1_.coverage" NAME="single_responsibility_principle.feature:Generating a report (1) Coverage Results" MODIFIED="1552335156953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature_Generating_a_report.coverage" NAME="single_responsibility_principle.feature:Generating a report Coverage Results" MODIFIED="1552329946197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/src" />
-    <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature.coverage" NAME="single_responsibility_principle.feature Coverage Results" MODIFIED="1552330115319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature.coverage" NAME="single_responsibility_principle.feature Coverage Results" MODIFIED="1552338038096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle.coverage" NAME="single_responsibility_principle Coverage Results" MODIFIED="1552330567660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/features/steps" />
+    <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature_Generating_input.coverage" NAME="single_responsibility_principle.feature:Generating input Coverage Results" MODIFIED="1552337829956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="8" column="63" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="63" />
+                <state relative-caret-position="243">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/__init__.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="27">
-                  <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+                <state relative-caret-position="81">
+                  <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/FileReader.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +63,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+                <state relative-caret-position="351">
+                  <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -102,7 +92,6 @@
         <option value="$PROJECT_DIR$/python/src/srp/main.py" />
         <option value="$PROJECT_DIR$/python/src/srp/test/test_SingleResponsibilityPrinciple.py" />
         <option value="$PROJECT_DIR$/python/src/single_responsibility_principle/test/test_SingleResponsibilityPrinciple.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/python/src/single_responsibility_principle/features/single_responsibility_principle.feature.py" />
         <option value="$PROJECT_DIR$/python/src/single_responsibility_principle/test/features/single_responsibility_principle.feature" />
         <option value="$PROJECT_DIR$/python/src/single_responsibility_principle/test/features/steps/single_responsibility_principle.py" />
@@ -111,7 +100,9 @@
         <option value="$PROJECT_DIR$/python/requirements.txt" />
         <option value="$PROJECT_DIR$/python/test/features/steps/single_responsibility_principle.py" />
         <option value="$PROJECT_DIR$/test/resources/input.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/single_responsibility_principle/main.py" />
+        <option value="$PROJECT_DIR$/src/single_responsibility_principle/FileReader.py" />
         <option value="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" />
         <option value="$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py" />
       </list>
@@ -163,6 +154,13 @@
               <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOLID" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -174,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552336425141" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552337943615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Behave.single_responsibility_principle.feature:Generating output">
+  <component name="RunManager" selected="Behave.single_responsibility_principle.feature">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="SOLID" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +215,35 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="single_responsibility_principle.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="SOLID" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="single_responsibility_principle.feature:Generating input" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="SOLID" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Generating input" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -260,9 +287,13 @@
     <list>
       <item itemvalue="Python.single_responsibility_principle" />
       <item itemvalue="Behave.single_responsibility_principle.feature:Generating output" />
+      <item itemvalue="Behave.single_responsibility_principle.feature:Generating input" />
+      <item itemvalue="Behave.single_responsibility_principle.feature" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.single_responsibility_principle.feature" />
+        <item itemvalue="Behave.single_responsibility_principle.feature:Generating input" />
         <item itemvalue="Behave.single_responsibility_principle.feature:Generating output" />
         <item itemvalue="Python.single_responsibility_principle" />
       </list>
@@ -278,47 +309,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552324195292</updated>
-      <workItem from="1552324196568" duration="9834000" />
+      <workItem from="1552324196568" duration="11560000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit with VIOLATION of SRP.">
+      <created>1552336405823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552336405823</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor to have FileReporter only have one responsibility :)">
+      <created>1552337168941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552337168941</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 21m 37s.xml">
+    <history-entry file="single_responsibility_principle_feature_Generating_input - 2019.03.11 at 15h 55m 18s.xml">
+      <configuration name="single_responsibility_principle.feature:Generating input" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature_Generating_input - 2019.03.11 at 15h 55m 35s.xml">
+      <configuration name="single_responsibility_principle.feature:Generating input" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature_Generating_input - 2019.03.11 at 15h 56m 26s.xml">
+      <configuration name="single_responsibility_principle.feature:Generating input" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature_Generating_input - 2019.03.11 at 15h 56m 31s.xml">
+      <configuration name="single_responsibility_principle.feature:Generating input" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature - 2019.03.11 at 15h 56m 37s.xml">
+      <configuration name="single_responsibility_principle.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 56m 45s.xml">
       <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 22m 21s.xml">
+    <history-entry file="single_responsibility_principle_feature - 2019.03.11 at 15h 57m 00s.xml">
+      <configuration name="single_responsibility_principle.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 57m 06s.xml">
       <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 22m 42s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="single_responsibility_principle_feature_Generating_input - 2019.03.11 at 15h 57m 10s.xml">
+      <configuration name="single_responsibility_principle.feature:Generating input" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 23m 07s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 23m 17s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 23m 55s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 24m 44s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 25m 17s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 28m 49s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="single_responsibility_principle_feature_Generating_output - 2019.03.11 at 15h 29m 19s.xml">
-      <configuration name="single_responsibility_principle.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="single_responsibility_principle_feature - 2019.03.11 at 15h 57m 13s.xml">
+      <configuration name="single_responsibility_principle.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9834000" />
+    <option name="totallyTimeSpent" value="11560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="3440" height="1417" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -329,13 +376,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.07580398" />
+      <window_info anchor="bottom" id="Version Control" weight="0.143951" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -354,6 +401,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit with VIOLATION of SRP." />
+    <MESSAGE value="Refactor to have FileReporter only have one responsibility :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor to have FileReporter only have one responsibility :)" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python/single-responsibility-principle/srp.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -364,9 +416,6 @@
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -381,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -395,13 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="737" column="4" selection-start-line="737" selection-start-column="4" selection-end-line="737" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -422,27 +457,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1544011873/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="352" column="126" lean-forward="true" selection-start-line="352" selection-start-column="126" selection-end-line="352" selection-end-column="126" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="63" />
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/FileReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/steps/single_responsibility_principle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
