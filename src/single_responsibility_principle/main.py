@@ -1,14 +1,9 @@
 class FileReporter:
 
-    def __init__(self, output_file, input_file):
-        self.output_file = output_file
-        self.input_file = input_file
+    def __init__(self, output_file_name, file_contents):
+        self.output_file_name = output_file_name
+        self.file_contents = file_contents
 
     def report(self):
-        output_file = open("resources/" + self.output_file, "w+")
-        input_file = open("resources/" + self.input_file, "r+")
-
-        output_file.write(input_file.read())
-
-        input_file.close()
-        output_file.close()
+        with open(self.output_file_name, "w+") as output_file:
+            output_file.write(self.file_contents)

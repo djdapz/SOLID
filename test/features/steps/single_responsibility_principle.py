@@ -7,7 +7,8 @@ from src.single_responsibility_principle.main import FileReporter
 
 @step('a reporter that writes {input_file} to {output_file}')
 def step_impl(context, input_file, output_file):
-    context.subject = FileReporter(output_file, input_file)
+    with open("resources/" + input_file) as input_file_contents:
+        context.subject = FileReporter("resources/" + output_file, input_file_contents.read())
 
 
 @when("we generate a report")
