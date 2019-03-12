@@ -3,7 +3,16 @@ from behave import given, step, when, then
 from hamcrest import assert_that, is_
 
 from src.single_responsibility_principle.FileReader import FileReader
+<<<<<<< Updated upstream
 from src.single_responsibility_principle.main import FileReporter
+=======
+from src.single_responsibility_principle.FileReporter import FileReporter
+
+
+@step("a reader for {input_file}")
+def step_impl(context, input_file):
+    context.reader = FileReader("resources/" + input_file)
+>>>>>>> Stashed changes
 
 
 @step("a reader for {input_file}")
