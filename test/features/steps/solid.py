@@ -20,7 +20,7 @@ def step_impl(context, input_file):
 
 @given("a every other line reader for {input_file}")
 def step_impl(context, input_file):
-    context.reader = EvenLineReader("resources/" + input_file)
+    context.reader = EvenLineReader(LineReader("resources/" + input_file))
 
 
 @step('a reporter that writes {input_file} to {output_file}')
