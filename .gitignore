@@ -2,3 +2,4 @@ venv
 test/resources/output.txt
 
 **/__pycache__
+out

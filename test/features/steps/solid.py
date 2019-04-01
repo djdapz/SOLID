@@ -2,22 +2,25 @@ import os
 from behave import given, step, when, then
 from hamcrest import assert_that, is_
 
+from open_closed_principle.EvenLineReader import EvenLineReader
+from open_closed_principle.LineReader import LineReader
 from src.single_responsibility_principle.FileReader import FileReader
-<<<<<<< Updated upstream
-from src.single_responsibility_principle.main import FileReporter
-=======
 from src.single_responsibility_principle.FileReporter import FileReporter
 
 
 @step("a reader for {input_file}")
 def step_impl(context, input_file):
     context.reader = FileReader("resources/" + input_file)
->>>>>>> Stashed changes
 
 
-@step("a reader for {input_file}")
+@given("a line reader for {input_file}")
 def step_impl(context, input_file):
-    context.reader = FileReader("resources/" + input_file)
+    context.reader = LineReader("resources/" + input_file)
+
+
+@given("a every other line reader for {input_file}")
+def step_impl(context, input_file):
+    context.reader = EvenLineReader("resources/" + input_file)
 
 
 @step('a reporter that writes {input_file} to {output_file}')
@@ -49,6 +52,16 @@ def step_impl(context, file):
 
 @step('we have an {file} with content {content}')
 def step_impl(context, file, content):
+    verify_file_equals(content, file)
+
+
+@step('we have a multiline file {file} with content {content}')
+def step_impl(context, file, content):
+    content = content.replace("\\n", "\n")
+    verify_file_equals(content, file)
+
+
+def verify_file_equals(content, file):
     resources_file = "resources/" + file
     assert_that(os.path.isfile(resources_file), is_(True))
     assert_that(open(resources_file, "+r").read(), is_(content))

@@ -6,4 +6,4 @@ class FileReporter:
 
     def report(self):
         with open(self.output_file_name, "w+") as output_file:
-            output_file.write(self.file_contents)
+            output_file.write("".join(self.file_contents))
