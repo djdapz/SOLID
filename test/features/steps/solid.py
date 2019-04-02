@@ -4,6 +4,8 @@ from hamcrest import assert_that, is_
 
 from open_closed_principle.EvenLineReader import EvenLineReader
 from open_closed_principle.LineReader import LineReader
+from open_closed_principle.ThirdLineReader import ThirdLineReader
+from open_closed_principle.FourthLineReader import FourthLineReader
 from src.single_responsibility_principle.FileReader import FileReader
 from src.single_responsibility_principle.FileReporter import FileReporter
 
@@ -21,6 +23,16 @@ def step_impl(context, input_file):
 @given("a every other line reader for {input_file}")
 def step_impl(context, input_file):
     context.reader = EvenLineReader(LineReader("resources/" + input_file))
+
+
+@given("a third line reader for {input_file}")
+def step_impl(context, input_file):
+    context.reader = ThirdLineReader(LineReader("resources/" + input_file))
+
+
+@given("a fourth line reader for {input_file}")
+def step_impl(context, input_file):
+    context.reader = FourthLineReader(LineReader("resources/" + input_file))
 
 
 @step('a reporter that writes {input_file} to {output_file}')
