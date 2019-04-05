@@ -1,7 +1,12 @@
 import os
+from typing import List
+
 from behave import given, step, when, then
 from hamcrest import assert_that, is_
 
+from liskov.HumanWorker import HumanWorker
+from liskov.RobotWorker import RobotWorker
+from liskov.Worker import Worker
 from open_closed_principle.EvenLineReader import EvenLineReader
 from open_closed_principle.LineReader import LineReader
 from open_closed_principle.ThirdLineReader import ThirdLineReader
@@ -87,3 +92,50 @@ def step_impl(context, file_name):
 @then("we find the the contents is {content}")
 def step_impl(context, content):
     assert_that(context.subject.read(), is_(content))
+
+
+@given("a human worker")
+def step_impl(context):
+    context.worker = HumanWorker()
+
+
+@given("a robot worker")
+def step_impl(context):
+    context.worker = RobotWorker()
+
+
+@when("the worker works")
+def step_impl(context):
+    context.worker_response = context.worker.work()
+
+
+@then("the worker responds {expected_response}")
+def step_impl(context, expected_response):
+    assert_that(context.worker_response, is_(expected_response))
+
+
+@when("the worker eats {food}")
+def step_impl(context, food):
+    context.worker_response = context.worker.eat(food)
+
+
+@given("a human worker and a robot worker")
+def step_impl(context):
+    context.workers: List[Worker] = [HumanWorker(), RobotWorker()]
+
+
+@when("the workers work")
+def step_impl(context):
+    context.responses = []
+    for worker in context.workers:
+        context.responses.append(worker.work())
+
+
+@then("the first responds with {expected_response}")
+def step_impl(context, expected_response):
+    assert_that(context.responses[0], is_(expected_response))
+
+
+@then("the second responds with {expected_response}")
+def step_impl(context, expected_response):
+    assert_that(context.responses[1], is_(expected_response))
