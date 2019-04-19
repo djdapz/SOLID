@@ -26,6 +26,12 @@ Feature: Liskov Substitution Principle
     When the worker eats cake
     Then the worker responds YUM! THAT WAS DELICIOUS
 
+  #VIOLATION
+  Scenario: Robot Worker Failing to eat
+    Given a robot worker
+    When the worker eats anything
+    Then the worker responds AN ERROR OCCURRED
+
 
 
 

@@ -8,3 +8,7 @@ class Worker(abc.ABC):
     def work():
         pass
 
+    @staticmethod
+    @abc.abstractmethod
+    def eat(food):
+        pass

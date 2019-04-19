@@ -8,9 +8,9 @@ from liskov.HumanWorker import HumanWorker
 from liskov.RobotWorker import RobotWorker
 from liskov.Worker import Worker
 from open_closed_principle.EvenLineReader import EvenLineReader
+from open_closed_principle.FourthLineReader import FourthLineReader
 from open_closed_principle.LineReader import LineReader
 from open_closed_principle.ThirdLineReader import ThirdLineReader
-from open_closed_principle.FourthLineReader import FourthLineReader
 from src.single_responsibility_principle.FileReader import FileReader
 from src.single_responsibility_principle.FileReporter import FileReporter
 
@@ -116,7 +116,10 @@ def step_impl(context, expected_response):
 
 @when("the worker eats {food}")
 def step_impl(context, food):
-    context.worker_response = context.worker.eat(food)
+    try:
+        context.worker_response = context.worker.eat(food)
+    except NotImplementedError:
+        context.worker_response = "AN ERROR OCCURRED"
 
 
 @given("a human worker and a robot worker")
@@ -139,3 +142,4 @@ def step_impl(context, expected_response):
 @then("the second responds with {expected_response}")
 def step_impl(context, expected_response):
     assert_that(context.responses[1], is_(expected_response))
+
