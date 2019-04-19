@@ -4,6 +4,9 @@ from typing import List
 from behave import given, step, when, then
 from hamcrest import assert_that, is_
 
+from interface_segregation.CoffeeMachine import CoffeeMachine
+from interface_segregation.RiceMaker import RiceMaker
+from interface_segregation.SodaMachine import SodaMachine
 from liskov.HumanWorker import HumanWorker
 from liskov.RobotWorker import RobotWorker
 from liskov.Worker import Worker
@@ -143,3 +146,79 @@ def step_impl(context, expected_response):
 def step_impl(context, expected_response):
     assert_that(context.responses[1], is_(expected_response))
 
+
+@given("a soda machine")
+def step_impl(context):
+    context.machine = SodaMachine()
+
+
+@when("the machine dispenses")
+def step_impl(context):
+    context.beverage = context.machine.pour()
+
+
+@then("the machine returns {beverage}")
+def step_impl(context, beverage):
+    assert_that(context.beverage, is_(beverage))
+
+
+@given("a coffee machine")
+def step_impl(context):
+    context.machine = CoffeeMachine()
+
+
+@given("i have a mix of drink machines")
+def step_impl(context):
+    context.machines = [CoffeeMachine(), SodaMachine()]
+
+
+@when("the machines dispense")
+def step_impl(context):
+    context.beverages = list(map(lambda x: x.pour(), context.machines))
+
+
+@then("the {nth} pours me {beverage}")
+def step_impl(context, nth, beverage):
+    actual_beverage = context.beverages[nth_to_index(nth)]
+    assert_that(beverage, is_(actual_beverage))
+
+
+@then("the {nth} makes me {thing}")
+def step_impl(context, nth, thing):
+    actual_thing = context.beverages_created[nth_to_index(nth)]
+    assert_that(thing, is_(actual_thing))
+
+
+def nth_to_index(nth):
+    if nth == "first":
+        return 0
+
+    if nth == "second":
+        return 1
+
+    raise Exception(f"{nth} not understood")
+
+
+@when("the machine makes")
+def step_impl(context):
+    context.beverage_created = context.machine.make()
+
+
+@then("the machine prepares {beverage}")
+def step_impl(context, beverage):
+    assert_that(beverage, is_(context.beverage_created))
+
+
+@given("a rice maker")
+def step_impl(context):
+    context.machine = RiceMaker()
+
+
+@given("i have a mix of maker machines")
+def step_impl(context):
+    context.machines = [CoffeeMachine(), RiceMaker()]
+
+
+@when("the machines make")
+def step_impl(context):
+    context.beverages_created = list(map(lambda x: x.make(), context.machines))
