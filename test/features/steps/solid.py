@@ -222,3 +222,88 @@ def step_impl(context):
 @when("the machines make")
 def step_impl(context):
     context.beverages_created = list(map(lambda x: x.make(), context.machines))
+
+
+@given("a burrito machine")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: Given a burrito machine')
+
+
+@when("i say make a burrito")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: When i say make a burrito')
+
+
+@then("i get a burrito")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: Then i get a burrito')
+
+
+@when("i say make a burrito with guac")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: When i say make a burrito with guac')
+
+
+@then("i get a burrito with guac")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: Then i get a burrito with guac')
+
+
+@given("the user is in the {page} view")
+def step_impl(context, page):
+    #write some code to make sure toggle is switched
+
+@when("the user selects the Edit from an individual Kebab")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: When the user selects the Edit from an individaul  Kebab')
+
+
+@then("the report settings drawer appears with the title equal to {thing}")
+def step_impl(context,  thing):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: Then the report settings drawer appears with the report title')
+
+
+@when("the user selects the Edit from an individual Kebab with title {title}")
+def step_impl(context, title):
+    """
+    :type context: behave.runner.Context
+    :type title: str
+    """
+    raise NotImplementedError(u'STEP: When the user selects the Edit from an individual Kebab with title <title>')
+
+
+@step("the user clicks cancel")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: And the user clicks cancel')
+
+
+@then("the edit settings view is gone")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: Then the edit settings view is gone')

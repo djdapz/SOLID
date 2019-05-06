@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="996f2fce-0a39-421f-84c5-66f2db20abf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interface_segregation/CoffeeMachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_segregation/DrinkMachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_segregation/RiceMaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_segregation/SodaMachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_segregation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/features/interface_segregation_principle.feature" afterDir="false" />
+    <list default="true" id="996f2fce-0a39-421f-84c5-66f2db20abf4" name="Default Changelist" comment="Nicole  and Natatalia - 2943982821 -">
+      <change afterPath="$PROJECT_DIR$/test/features/dependency_inversion.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/features/steps/solid.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/features/steps/solid.py" afterDir="false" />
     </list>
@@ -22,35 +17,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5605178">
+    <splitter split-orientation="horizontal" split-proportion="0.1">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/liskov/Worker.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/features/steps/solid.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="682">
-                  <caret line="218" column="24" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/interface_segregation/RiceMaker.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                <state>
+                  <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -58,8 +32,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/interface_segregation/CoffeeMachine.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+                <state relative-caret-position="154">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="e#0#59#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -68,7 +45,7 @@
             <entry file="file://$PROJECT_DIR$/src/interface_segregation/SodaMachine.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
-                  <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -103,17 +80,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/2069739102/builtins.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="861">
+                <state relative-caret-position="128084">
                   <caret line="5822" selection-start-line="5822" selection-end-line="5822" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/features/interface_segregation_principle.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="484">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -131,11 +117,38 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/features/dependency_inversion.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/features/open_closed_principle.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/features/steps/solid.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="266" selection-start-line="266" selection-end-line="266" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/resources/3_line_input.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="44">
-                  <caret line="2" column="2" selection-start-line="2" selection-end-line="2" selection-end-column="2" />
+                  <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -152,22 +165,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/interface_segregation/DrinkMachine.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                <state relative-caret-position="88">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/interface_segregation/MakerMachine.py">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/features/liskov_substitution_principle.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
-                  <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+                <state relative-caret-position="691">
+                  <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -199,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/single_responsibility_principle/FileReporter.py" />
         <option value="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/open_closed_principle/LineReader.py" />
         <option value="$PROJECT_DIR$/src/open_closed_principle/EvenLineReader.py" />
         <option value="$PROJECT_DIR$/src/open_closed_principle/ThirdLineReader.py" />
         <option value="$PROJECT_DIR$/src/open_closed_principle/FourthLineReader.py" />
@@ -209,27 +225,30 @@
         <option value="$PROJECT_DIR$/src/liskov/Worker.py" />
         <option value="$PROJECT_DIR$/src/liskov/HumanWorker.py" />
         <option value="$PROJECT_DIR$/src/liskov/RobotWorker.py" />
-        <option value="$PROJECT_DIR$/test/features/liskov_substitution_principle.feature" />
-        <option value="$PROJECT_DIR$/src/interface_segregation/DrinkMachine.py" />
-        <option value="$PROJECT_DIR$/src/interface_segregation/SodaMachine.py" />
+        <option value="$PROJECT_DIR$/test/features/interface_segregation_principle.feature" />
+        <option value="$PROJECT_DIR$/src/interface_segregation/MakerMachine.py" />
         <option value="$PROJECT_DIR$/src/interface_segregation/CoffeeMachine.py" />
         <option value="$PROJECT_DIR$/src/interface_segregation/RiceMaker.py" />
-        <option value="$PROJECT_DIR$/test/features/interface_segregation_principle.feature" />
+        <option value="$PROJECT_DIR$/src/interface_segregation/DrinkMachine.py" />
+        <option value="$PROJECT_DIR$/src/interface_segregation/SodaMachine.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.ts" />
+        <option value="$PROJECT_DIR$/test/features/liskov_substitution_principle.feature" />
+        <option value="$PROJECT_DIR$/src/open_closed_principle/LineReader.py" />
         <option value="$PROJECT_DIR$/test/features/steps/solid.py" />
+        <option value="$PROJECT_DIR$/test/features/dependency_inversion.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="1417" />
+    <option name="width" value="840" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,35 +259,6 @@
             <path>
               <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interface_segregation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="liskov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="open_closed_principle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="single_responsibility_principle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,13 +266,6 @@
               <item name="SOLID" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
@@ -290,21 +273,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -313,21 +286,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554213458781" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/interface_segregation" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/features" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20344828" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/interface_segregation" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/interface_segregation" />
       <recent name="$PROJECT_DIR$/test/features" />
+      <recent name="$PROJECT_DIR$/src/interface_segregation" />
       <recent name="$PROJECT_DIR$/src/liskov" />
       <recent name="$PROJECT_DIR$/src/open_closed_principle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/interface_segregation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Behave.interface_segregation_principle.feature">
+  <component name="RunManager" selected="Behave.dependency_inversion.feature:Generating output">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="SOLID" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,6 +327,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dependency_inversion.feature:Generating output" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="SOLID" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/test/features/dependency_inversion.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Generating output" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -413,27 +402,13 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="single_responsibility_principle.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="SOLID" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/test/features/single_responsibility_principle.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.dependency_inversion.feature:Generating output" />
         <item itemvalue="Behave.interface_segregation_principle.feature" />
         <item itemvalue="Behave.liskov_substitution_principle.feature" />
         <item itemvalue="Behave.open_closed_principle.feature" />
         <item itemvalue="Behave.open_closed_principle.feature:Read every fourth line (2)" />
-        <item itemvalue="Behave.single_responsibility_principle.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -452,6 +427,10 @@
       <workItem from="1554493041171" duration="725000" />
       <workItem from="1554493922139" duration="73000" />
       <workItem from="1554494022421" duration="2060000" />
+      <workItem from="1556313733482" duration="1761000" />
+      <workItem from="1556553046610" duration="1146000" />
+      <workItem from="1556691503362" duration="232000" />
+      <workItem from="1557163233108" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="PT DD - Open/Close principle violation.">
       <created>1554126694828</created>
@@ -474,16 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555702359010</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PT DD - Add Rice, Coffee, Soda machine for Interface Segregation.">
+      <created>1555704379372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555704379372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="interface_segregation_principle_feature - 2019.04.19 at 14h 53m 35s.xml">
-      <configuration name="interface_segregation_principle.feature" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="interface_segregation_principle_feature - 2019.04.19 at 14h 53m 37s.xml">
-      <configuration name="interface_segregation_principle.feature" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
     <history-entry file="interface_segregation_principle_feature - 2019.04.19 at 14h 53m 53s.xml">
       <configuration name="interface_segregation_principle.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
@@ -508,9 +488,15 @@
     <history-entry file="interface_segregation_principle_feature - 2019.04.19 at 15h 02m 43s.xml">
       <configuration name="interface_segregation_principle.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
+    <history-entry file="interface_segregation_principle_feature - 2019.04.19 at 15h 05m 19s.xml">
+      <configuration name="interface_segregation_principle.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="dependency_inversion_feature_Generating_output - 2019.05.06 at 12h 22m 40s.xml">
+      <configuration name="dependency_inversion.feature:Generating output" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10191000" />
+    <option name="totallyTimeSpent" value="16532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,9 +508,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15131056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21184371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,17 +520,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2928302" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2919786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38264152" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16042781" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32875264" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.45347592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -563,11 +550,38 @@
     <option featureType="com.intellij.facetType" implementationName="Python" />
     <option featureType="com.intellij.configurationType" implementationName="PyBehaveRunConfigurationType" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PT DD - Open/Close principle violation." />
     <MESSAGE value="PT DD - Fix tests." />
     <MESSAGE value="PT DD - Add eat method to worker, violating the Liskov Substitution Principle." />
-    <option name="LAST_COMMIT_MESSAGE" value="PT DD - Add eat method to worker, violating the Liskov Substitution Principle." />
+    <MESSAGE value="PT DD - Add Rice, Coffee, Soda machine for Interface Segregation." />
+    <option name="LAST_COMMIT_MESSAGE" value="PT DD - Add Rice, Coffee, Soda machine for Interface Segregation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -584,6 +598,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SOLID$open_closed_principle_feature_Read_every_fourth_line__2_.coverage" NAME="open_closed_principle.feature:Read every fourth line (2) Coverage Results" MODIFIED="1554494197770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$interface_segregation_principle_feature.coverage" NAME="interface_segregation_principle.feature Coverage Results" MODIFIED="1555704319569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SOLID$dependency_inversion_feature_Generating_output.coverage" NAME="dependency_inversion.feature:Generating output Coverage Results" MODIFIED="1557163359526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$single_responsibility_principle_feature.coverage" NAME="single_responsibility_principle.feature Coverage Results" MODIFIED="1554494175622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$liskov_substitution_principle_feature.coverage" NAME="liskov_substitution_principle.feature Coverage Results" MODIFIED="1555702934421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SOLID$open_closed_principle_feature.coverage" NAME="open_closed_principle.feature Coverage Results" MODIFIED="1554494249566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -628,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py" />
     <entry file="file://$PROJECT_DIR$/src/single_responsibility_principle/FileReporter.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,20 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/open_closed_principle/Reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/open_closed_principle/LineReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/open_closed_principle/EvenLineReader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -705,17 +699,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/resources/3_line_input.txt">
+    <entry file="file://$PROJECT_DIR$/src/liskov/Worker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="2" selection-start-line="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/open_closed_principle.feature">
+    <entry file="file://$PROJECT_DIR$/src/interface_segregation/CoffeeMachine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface_segregation/SodaMachine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -723,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
           <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/2069739102/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="5822" selection-start-line="5822" selection-end-line="5822" />
         </state>
       </provider>
     </entry>
@@ -747,67 +744,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liskov/Worker.py">
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/2069739102/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="128084">
+          <caret line="5822" selection-start-line="5822" selection-end-line="5822" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface_segregation/SodaMachine.py">
+    <entry file="file://$PROJECT_DIR$/src/interface_segregation/MakerMachine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface_segregation/CoffeeMachine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface_segregation/RiceMaker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/steps/solid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="218" column="24" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/interface_segregation_principle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/features/liskov_substitution_principle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interface_segregation/DrinkMachine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface_segregation/MakerMachine.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/open_closed_principle/Reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/resources/3_line_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface_segregation/RiceMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/interface_segregation_principle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/single_responsibility_principle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/liskov_substitution_principle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/open_closed_principle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/open_closed_principle/LineReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/steps/solid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/dependency_inversion.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
