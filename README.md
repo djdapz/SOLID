@@ -1,12 +1,11 @@
 # SOLID
 
-
 |   |   | 
 |---|---|
-|   S| Single Responsibility Principle  |
-|   O| Open/Closed Principle   |
-|   L| Liskov Substitution Principle  |
-|   I| Interface Segregation Principle  |
+|   S| [Single Responsibility Principle](./test/features/single_responsibility_principle.feature)  |
+|   O| [Open/Closed Principle ](./test/features/open_closed_principle.feature)  |
+|   L| [Liskov Substitution Principle](./test/features/liskov_substitution_principle.feature)  |
+|   I| [Interface Segregation Principle](./test/features/interface_segregation_principle.feature)  |
 |   D| Dependency Inversion Principle  |
 
 
