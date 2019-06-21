@@ -1,5 +1,15 @@
 # SOLID
 
+
+|   |   | 
+|---|---|
+|   S| Single Responsibility Principle  |
+|   O| Open/Closed Principle   |
+|   L| Liskov Substitution Principle  |
+|   I| Interface Segregation Principle  |
+|   D| Dependency Inversion Principle  |
+
+
 ## getting python setup
 
 1. Make sure you have python3 and pip3 installed
